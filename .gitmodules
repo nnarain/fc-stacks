@@ -1,0 +1,9 @@
+[submodule "libraries/kicad-inventory"]
+	path = libraries/kicad-inventory
+	url = https://github.com/nnarain/kicad-inventory.git
+[submodule "libraries/espressif"]
+	path = libraries/espressif
+	url = https://github.com/espressif/kicad-libraries.git
+[submodule "libraries/USB-C-Connectors"]
+	path = libraries/USB-C-Connectors
+	url = https://github.com/nnarain/USB-C-Connectors.git

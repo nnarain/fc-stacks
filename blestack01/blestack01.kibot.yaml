@@ -1,0 +1,12 @@
+kibot:
+  version: 1
+
+preflight:
+  run_erc: false
+  run_drc: false
+
+import:
+  - ../configs/common.kibot.yaml
+  - ../configs/jlcpcb.kibot.yaml
+  - ../configs/jlcpcb-4L.kibot.yaml
+ 
