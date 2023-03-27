@@ -1,0 +1,24 @@
+kibot:
+  version: 1
+
+preflight:
+  run_erc: false
+  run_drc: false
+
+outputs:
+  - name: gerbers
+    comment: Gerbers files
+    type: gerber
+    dir: fab/gerbers
+    layers:
+      - F.Cu
+      - B.Cu
+      - PWR
+      - GND
+
+      - F.SilkS
+      - B.SilkS
+      - F.Mask
+      - B.Mask
+
+      - Edge.Cuts
