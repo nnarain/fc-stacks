@@ -1,5 +1,5 @@
 DOCKER=docker
-KIBOT_IMAGE=setsoft/kicad_auto:ki6
+KIBOT_IMAGE=setsoft/kicad_auto:ki7
 
 PRJ_ROOT=/projects
 BUILD_DIR=$(PRJ_ROOT)/build
@@ -12,7 +12,8 @@ OUT_DIR=$(PRJ_ROOT)/build
 KIBOT_CMD_PREFIX=$(DOCKER) run --rm -it -v ${CURDIR}:/kicad $(KIBOT_IMAGE) kibot -c $(CONF_FILE) -e $(SCH_FILE) -b $(PCB_FILE) -d $(OUT_DIR) -s all
 
 all:
-	$(DOCKER) run --rm -it -v $(CURDIR):$(PRJ_ROOT) $(KIBOT_IMAGE) kibot -c $(PRJ_ROOT)/blestack01/blestack01.kibot.yaml -e $(PRJ_ROOT)/blestack01/blestack01.kicad_sch -b $(PRJ_ROOT)/blestack01/blestack01.kicad_pcb -d $(OUT_DIR)/blestack01
+#	$(DOCKER) run --rm -it -v $(CURDIR):$(PRJ_ROOT) $(KIBOT_IMAGE) kibot -c $(PRJ_ROOT)/blestack01/blestack01.kibot.yaml -e $(PRJ_ROOT)/blestack01/blestack01.kicad_sch -b $(PRJ_ROOT)/blestack01/blestack01.kicad_pcb -d $(OUT_DIR)/blestack01
+	$(DOCKER) run --rm -it -v $(CURDIR):$(PRJ_ROOT) $(KIBOT_IMAGE) kibot -c "$(PRJ_ROOT)/blestack02/blestack02.kibot.yaml" -e "$(PRJ_ROOT)/blestack02/blestack02.kicad_sch" -b "$(PRJ_ROOT)/blestack02/blestack02.kicad_pcb" -d $(OUT_DIR)/blestack02
 
 clean:
 	rm -rf "$(CURDIR)/build"
