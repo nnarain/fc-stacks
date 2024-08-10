@@ -1,5 +1,5 @@
 DOCKER=docker
-KIBOT_IMAGE=setsoft/kicad_auto:ki7
+KIBOT_IMAGE=setsoft/kicad_auto:ki8
 
 PRJ_ROOT=/projects
 BUILD_DIR=$(PRJ_ROOT)/build
