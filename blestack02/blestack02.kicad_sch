@@ -4195,7 +4195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2306061155_Wurth-Elektronik-150060GS75000_C5252984.pdf"
 			(at 186.69 147.32 0)
 			(effects
 				(font
@@ -4213,7 +4213,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C5252984"
 			(at 186.69 147.32 90)
 			(effects
 				(font
@@ -5663,7 +5663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2306061153_Wurth-Elektronik-150060BS75000_C5197644.pdf"
 			(at 198.12 147.32 0)
 			(effects
 				(font
@@ -5681,7 +5681,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C72041"
+		(property "LCSC" "C5197644"
 			(at 198.12 147.32 90)
 			(effects
 				(font
